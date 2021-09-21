@@ -1,6 +1,4 @@
 import noisereduce as nr
-from scipy.io.wavfile import write
-from scipy.io.wavfile import read
 from flask import Flask, request,jsonify
 
 app = Flask(__name__)
